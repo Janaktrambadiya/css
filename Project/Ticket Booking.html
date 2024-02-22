@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 0 60px rgba(0.5,1.0,2.2);
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .event {
+            border: 1px solid #ddd;
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 5px;
+        }
+
+        .event img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .event-details {
+            margin-top: 50px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ticket Booking</h1>
+    </header>
+
+    <main>
+        <div class="event">
+            <img src="https://trumpwallpapers.com/wp-content/uploads/Bus-Wallpaper-35-1920x1080-1.jpg" alt="Event Image">
+            <div class="event-details">
+                <h2>Junagadh</h2>
+                <p>Date: Febuary 15, 2024</p>
+                <p>Time: 7:00 PM</p>
+                <p>City: Ghandhinagar</p>
+                <button onclick="bookTickets()">Book Tickets</button>
+            </div>
+        </div>
+
+        <div class="event">
+            <img src="https://rare-gallery.com/uploads/posts/834151-Bus-Black.jpg" alt="Event Image">
+            <div class="event-details">
+                <h2>Ahmedabad</h2>
+                <p>Date: Febuary 25, 2024</p>
+                <p>Time: 3:00 PM</p>
+                <p>City: Puna</p>
+                <button onclick="bookTickets()">Book Tickets</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
